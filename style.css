@@ -1,0 +1,9 @@
+body{
+    height: 98vh;
+}
+
+canvas {
+    margin: 0 auto;
+    border: 1px solid black;
+    display: block;
+}
