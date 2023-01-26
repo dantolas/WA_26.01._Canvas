@@ -10,11 +10,10 @@ const saveButton = document.querySelector("#save");
 saveButton.addEventListener('click',function(e){
     const img    = canvas.toDataURL('image_'+savedImages.length);
     savedImages.push(img);
-    savedImages.forEach(element => {
-        var img = document.createElement('img');
-
-
-    });
+    var imgDiv = document.createElement('img');
+        imgDiv.src = img;
+        imgDiv.style.border = "2px solid black";
+        document.querySelector("#imageContainer").appendChild(imgDiv);
 })
 
 //#endregion
