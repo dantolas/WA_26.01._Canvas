@@ -1,1 +1,2 @@
-Kuta Samuel C3b \nDoes this slashn work in bash?
+Kuta Samuel C3b
+Canvas 26.1.
